@@ -114,4 +114,12 @@ footer {
   "audio";
   }
 
+  .miniCover {
+    grid-area: cover;
+    width: 90%;
+    height: 80%;
+    margin-bottom: -8%;
+    margin-left: 5.5%;
+  }
+
 }
