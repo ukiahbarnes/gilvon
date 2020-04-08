@@ -1,0 +1,38 @@
+body {
+  margin: 2.5%;
+  padding: 2.5%;
+  background-color: rgb(112,128,144);
+  color: white;
+}
+
+section {
+  background-color: rgb(105,105,105);
+  padding:5%;
+  border-radius: 2.5%;
+}
+.track {
+  display: grid;
+  grid-template-rows: 1fr, 1fr;
+  grid-template-columns: 1fr, 1fr;
+  grid-template-areas:
+  "title ."
+  "cover description";
+  background-color: rgb(0,0,0);
+  padding: 2.5%;
+  margin-bottom: 5%;
+}
+ol {
+  grid-area: description;
+}
+li {
+  grid-area: description;
+  list-style-type: none;
+}
+.miniCover {
+  grid-area: cover;
+  width: 20%;
+  height: 20%;
+}
+h2 {
+  grid-area: description;
+}
