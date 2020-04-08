@@ -97,3 +97,21 @@ font-family: "Courier New", Courier, monospace;
   grid-area: year;
   font-family: "Courier New", Courier, monospace;
 }
+footer {
+  color: black;
+  text-align: center;
+}
+
+@media all and (max-width: 520px) {
+ .track {
+  display: grid;
+  grid-template-rows: auto auto auto auto;
+  grid-template-columns: 1fr;
+  grid-template-areas:
+  "title"
+  "cover"
+  "description"
+  "audio";
+  }
+
+}
